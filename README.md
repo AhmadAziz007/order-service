@@ -7,6 +7,6 @@ Service order untuk micro-ecommerce.
 
 ## Menjalankan worker dengan rabbitmq
 1. go run main.go worker-order
-2. go run main.go worker-update-status
+2. go run main.go worker-update-status-order
 3. go run main.go worker-delete-order
-4. go run main.go worker-delete-order
+4. go run main.go worker-update-payment-order
